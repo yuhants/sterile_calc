@@ -1,0 +1,1970 @@
+===== PAGE 1 =====
+PRX QUANTUM 4, 010315 (2023)
+Editors’ Suggestion
+Featured in Physics
+Searches for Massive Neutrinos with Mechanical Quantum Sensors
+Daniel Carney,1 Kyle G. Leach ,2,3 and David C. Moore
+4,*
+1Physics Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720-8153, USA
+2Department of Physics, Colorado School of Mines, Golden, Colorado 80401, USA
+3Facility for Rare Isotope Beams, Michigan State University, East Lansing, Michigan 48824, USA
+4Wright Laboratory, Department of Physics, Yale University, New Haven, Connecticut 06511, USA
+ (Received 15 July 2022; accepted 16 December 2022; published 8 February 2023)
+The development of quantum optomechanics now allows mechanical sensors with femtogram masses
+to be controlled and measured in the quantum regime. If the mechanical element contains isotopes that
+undergo nuclear decay, measuring the recoil of the sensor following the decay allows reconstruction of
+the total momentum of all emitted particles, including any neutral particles that may escape detection
+in traditional detectors. As an example, for weak nuclear decays the momentum of the emitted neutrino
+can be reconstructed on an event-by-event basis. We present the concept that a single nanometer-scale
+optically levitated sensor operated with sensitivity near the standard quantum limit can search for heavy
+sterile neutrinos in the keV-MeV mass range with sensitivity signiﬁcantly beyond existing laboratory
+constraints. We also comment on the possibility that mechanical sensors operated well into the quantum
+regime might ultimately reach the sensitivities required to provide an absolute measurement of the mass
+of the light neutrino states.
+DOI: 10.1103/PRXQuantum.4.010315
+I. INTRODUCTION
+While the standard model (SM) of particle physics pro-
+vides an extremely successful description of the known
+fundamental particles and their interactions, astrophysical
+and laboratory measurements indicate that it is incom-
+plete. In particular, it does not account for the origin of the
+small, but nonzero, neutrino masses observed in neutrino-
+oscillation experiments [1]. Although minimal versions
+of the SM contain only left-handed massless neutrinos,
+extensions incorporating nonzero masses typically require
+right-handed neutrinos [2]. Such “sterile” neutrinos would
+not directly participate in weak interactions [3] but may
+mix with the active neutrinos to produce observable eﬀects
+[4]. Searches for sterile neutrinos over a wide range of
+mass scales is a current focus of the neutrino community
+[4,5]. It is also possible that sterile neutrinos with greater
+than keV masses could constitute some (or all) of the relic
+dark-matter density [6].
+*david.c.moore@yale.edu
+Published by the American Physical Society under the terms of
+the Creative Commons Attribution 4.0 International license. Fur-
+ther distribution of this work must maintain attribution to the
+author(s) and the published article’s title, journal citation, and
+DOI.
+Most searches for sterile neutrinos aim to detect oscil-
+lations between the SM neutrinos produced in weak inter-
+actions and possible sterile states [5]. Due to constraints
+on the neutrino energy and size of the detectors in such
+experiments, these searches have the greatest sensitivity
+to neutrinos with masses less than tens of electronvolts.
+For higher-mass neutrinos, searches for distortions in the
+spectrum of electrons emitted by nuclear β decays pro-
+vide among the most stringent laboratory constraints in
+the approximately keV-MeV mass range [7–15]. If sterile
+neutrinos constitute a signiﬁcant fraction of dark mat-
+ter, limits on x-ray emission from their radiative decays
+may also provide constraints in this mass range [4,16].
+Accelerator-based searches for heavy neutral leptons pro-
+vide the dominant constraints at approximately MeV-GeV
+masses [17].
+A complementary approach is to fully reconstruct
+the kinematics of all particles (except the neutrino) in
+the ﬁnal state of a weak nuclear decay [18–23]. This
+approach avoids the need to detect small distortions in
+the β spectrum, which becomes increasingly challeng-
+ing for small branching ratios to decays emitting a keV-
+MeV neutrino. Here, we describe a new approach to
+kinematic reconstruction of weak decays using mechan-
+ical quantum sensors. This proposal takes advantage
+of the rapid development of levitated optomechanics
+for nanoscale objects over the past decade [24–26].
+These techniques now allow objects with diameters of
+2691-3399/23/4(1)/010315(18)
+010315-1
+Published by the American Physical Society
+===== PAGE 2 =====
+CARNEY, LEACH, and MOORE
+PRX QUANTUM 4, 010315 (2023)
+approximately 100 nm to be trapped in high vacuum and
+their motional state cooled to the ground state of the trap-
+ping potential [27–31]. The operation of such systems in
+the quantum regime has recently enabled demonstrations
+of cavity-free squeezing of the optical ﬁelds interacting
+with the particles [32,33]. Work is ongoing to prepare non-
+classical motional states and to read out the position or
+momentum of such objects beyond the “standard quantum
+limit” (SQL) [24,34–38].
+Applications of levitated optomechanical systems to
+tests of fundamental physics include searches for tiny
+forces or momentum transfers from, e.g., scattering of
+dark-matter particles [39–44], modiﬁcations to gravity
+[45,46], or the presence of fractionally charged dark-matter
+particles [47–49]. Ambitious future proposals with such
+systems aim to test the foundations of quantum mechan-
+ics with massive particles [50–53], detect high-frequency
+gravitational waves [54,55], or even entangle micropar-
+ticles only through their mutual gravitational attraction
+[56–58]. The extension of such techniques to gram-scale
+objects has also recently been proposed for detection of
+coherent scattering of reactor neutrinos [59]. As described
+here, these systems can also be used to reconstruct the mass
+of the emitted neutrinos in weak nuclear decay through
+precision measurements of the recoils from embedded
+radioisotopes in nanoscale particles.
+Techniques
+similar
+to
+those
+proposed
+here
+have
+recently been used to set world-leading constraints on
+submegaelectronvolt-mass sterile neutrinos by implant-
+ing 7Be in energy-resolving superconducting sensors [15].
+However, the mechanical sensors proposed here provide
+important complementarity to energy-resolving measure-
+ments of the nuclear recoil. Since the momentum carried
+by secondary atomic particles [i.e., Auger electrons (e−) or
+x rays] emitted following the decay is much smaller than
+the nuclear-recoil momentum, momentum-resolving mea-
+surements largely avoid smearing from the interactions of
+diﬀerent parent atoms with their surroundings [60]. In con-
+trast, these smearing eﬀects are much more signiﬁcant in
+measurements of the nuclear-recoil energy. If all decay
+products are stopped within the nanoparticle except the
+neutrino (ν) (see Secs. III–IV), momentum conservation
+guarantees that the center of mass (COM) of the particle
+will carry momentum exactly equal and opposite to the
+neutrino, regardless of any internal excitations or atomic
+broadening.
+Compared to other existing and proposed techniques
+to probe weak neutrino admixtures [61], including those
+using trapped atoms [16,22,23,62], the techniques pro-
+posed here beneﬁt from the high density of the solid
+source material, which allows a large number of decay-
+ing nuclei to be conﬁned. In addition, essentially any
+isotope of interest can be conﬁned in the solid particle,
+with no requirement that the species of interest be com-
+patible with direct laser trapping and cooling. The recoil
+measurement is performed by collecting light scattered by
+the particle, which can be used to infer its position as a
+function of time (and thus reconstruct a change in the par-
+ticle momentum). This measurement depends only on the
+scattering of light by a subwavelength particle and does
+not strongly depend on the detailed particle properties or
+the readout laser wavelength. These advantages may per-
+mit relative electron-ﬂavor admixtures to keV-MeV mass
+states of ≲10−8 or lower to be probed with a modest array
+of nanoparticles in a month-long exposure (see Sec. III C),
+which is more than 4 orders of magnitude beyond existing
+laboratory constraints in this mass range.
+Finally, the ultimate sensitivity reached by mechani-
+cal measurements with nanoscale particles might some
+day permit even the light neutrino masses to be detected
+(see Sec. IV), potentially employing “ultralow-Q-value”
+decays, if such transitions can be identiﬁed (here, Q refers
+to the total energy released in the decay). If so, the ability
+to prepare the COM motion of the nanoparticle in a suﬃ-
+ciently narrow momentum state (≲200 meV) permits the
+neutrino to be in a spatially delocalized state, which is nec-
+essary for a precise determination of the neutrino momen-
+tum but is typically not possible for a solid source where
+the decay location itself is localized to atomic distances
+[63,64]. Control of the charge state of the nanosphere could
+also be leveraged to trap any emitted low-energy electrons,
+allowing a fully two-body decay for the low-energy decays
+of interest for light neutrinos.
+The paper is structured as follows. In Sec. II, we
+describe the general principles for mass reconstruction
+with mechanical nanoscale sensors. We show in Sec. III
+that searches for sterile neutrinos in the keV-MeV mass
+range with orders-of-magnitude higher sensitivity than
+existing experiments can be performed, using existing
+technologies. In Sec. IV, we comment on the possibil-
+ity that the unique properties of levitated optomechanical
+systems—operated well into the quantum regime—might
+some day reach sensitivity to the masses of the much
+lighter SM neutrinos.
+II. WEAK NUCLEAR DECAY INSIDE
+MECHANICAL SENSORS
+In a weak nuclear decay, an electron neutrino, νe (or
+its antiparticle, ¯νe), is produced at the interaction vertex.
+These ﬂavor states are superpositions
+|νe⟩=
+
+i
+U∗
+ei |νi⟩
+(1)
+of the neutrino-mass eigenstates, labeled by i ∈{1, 2, 3,
+. . .}. The mass eigenstates satisfy mass-energy relations of
+the form E2
+i = m2
+i + p2, while there is simply no analogous
+relation for the ﬂavor eigenstates. For all ﬂavor eigenstates
+|να⟩, α ∈{e, μ, τ}, the matrix Uαi rotating between these
+010315-2
+===== PAGE 3 =====
+SEARCHES FOR MASSIVE NEUTRINOS...
+PRX QUANTUM 4, 010315 (2023)
+bases is called the Pontecorvo-Maki-Nakagawa-Sakata
+(PMNS) matrix [65,66].
+In the SM, the PMNS matrix is a 3 × 3 unitary trans-
+formation acting on three mass eigenstates. In Sec. III, we
+are primarily concerned with the possibility that there is
+one additional state (or possibly multiple such states) with
+a mass eigenvalue m4 ≳1 keV, which is much larger than
+the SM neutrino masses, 3
+i=1 mi ≲0.2 eV [67]. In this
+case, the PMNS matrix is assumed to be extended to a
+4 × 4 unitary matrix, including mixing with this heavier
+state. A number of laboratory bounds already constrain
+|Ue4|2 ≲10−3 for keV-MeV-mass sterile ν, along with
+astrophysical and cosmological bounds that can be much
+more stringent but are typically model dependent [4,68].
+Thus we are looking for relatively rare events—in a given
+weak decay, the most likely ﬁnal states are any of the light
+SM neutrinos, with possibly a small branching ratio to the
+heavier sterile states.
+The general decay processes of interest here produce an
+electron-ﬂavor neutrino, starting from parent particles A
+and producing additional daughter particles B, A →Bνe.
+The examples on which we focus are nuclear β decay
+of neutrons n →pe¯νe and nuclear electron capture (EC),
+ep →nνe. A parent particle in an initial momentum eigen-
+state |ψ⟩in = |pA⟩will decay into a superposition of the
+form
+|ψ⟩out =
+
+i
+
+d3pid3pB,iδ4(pA −pi −pB,i)
+Me(pA; pi, pB,i)U∗
+ei |pi⟩⊗|pB,i⟩,
+(2)
+where the ﬁrst ket labels the various decay products B, the
+second labels the neutrino, and M is the probability ampli-
+tude for the decay A →Bνe. Note that in Eq. (2), the mass
+eigenstates appear in a coherent superposition, entangled
+with the B particles through total energy-momentum con-
+servation [77]. On each branch of the wave function, the
+total four-momentum conservation reads pμ
+A = pμ
+i + pμ
+B,i,
+which implies that
+m2
+i = −(pμ
+A −pμ
+B,i)2.
+(3)
+Thus if we can resolve the momentum diﬀerence (pA −
+pB)2 suﬃciently well, we can determine the mass eigen-
+values of the neutrinos. The probability of the ﬁnal-state
+neutrino being in a given mass eigenvalue i is proportional
+to |Uei|2 as well as a phase-space factor.
+Our proposed experimental strategy is to embed spe-
+ciﬁc unstable radioisotopes into a mesoscopic (submicron)
+mass, the COM degree of freedom (DOF) of which is
+continuously monitored for changes in momentum (see
+Fig. 1). Consider a nanosphere of some solid material
+of mass ms, implanted with an unstable isotope A of
+atomic mass mA. After the decay A →Bνe, the end state
+B will include a daughter isotope, which will be stopped
+within the solid particle (see below), as well as poten-
+tially other decay products B′ that may either be stopped
+or may exit the nanosphere. Measurement of the momen-
+tum kick to the nanosphere, as well as the momentum of
+any secondary particles that exit the nanosphere, can be
+used to kinematically reconstruct the neutrino momentum.
+While similar proposals for kinematic reconstruction of
+weak nuclear decays have been studied previously [18–
+23], such proposals have not considered the case that the
+decaying radioisotope is embedded in a nanoscale solid
+particle.
+The ﬁnal state after the decay is a complex joint state
+involving the outgoing neutrino and nanosphere COM, as
+well as any additional decay products and the various inter-
+nal excitations and rotational modes of the nanosphere.
+However, crucial to our proposal is that overall energy-
+momentum conservation applies in the form
+
+Es
+ps
+
+=
+
+Es′
+ps′
+
++
+
+Ei
+pi
+
++
+
+EB′,i
+pB′,i
+
+.
+(4)
+Here, B′ represents the subset of decay products that exit
+the nanosphere, Es and Es′ are the initial and ﬁnal ener-
+gies of the nanosphere, and ps and ps′ are its initial
+and ﬁnal momenta, with change in momentum ps =
+ps′ −ps. From measurement of the ﬁnal-state momenta
+and energies, one could in principle rearrange Eq. (4) to
+give a direct neutrino-mass-squared reconstruction analo-
+gous to Eq. (3) [23]. However, the internal energy of the
+nanosphere may be diﬃcult to measure in practice and for
+the decays of interest in Sec. III, measurement of these
+energies is not required to reach the desired sensitivity.
+Instead, sensitivity to the keV-MeV-scale mass states
+considered here can be reached by considering only the
+portion of Eq. (4) related to three-momentum conserva-
+tion. Measurements of the nanosphere-recoil momentum,
+and the angle and energy of emitted secondaries, per-
+mit reconstruction of the neutrino momentum vector pi =
+−(ps + pB′,i). The value of the neutrino mass mi will
+distort the probability distribution of ﬁnal-state momenta
+P(pi) relative to the case where the neutrinos are massless,
+because some of the decay energy is required to produce
+the neutrino rest mass, reducing its momentum. This eﬀect
+is most pronounced for nonrelativistic neutrinos, i.e., those
+with a rest mass that is an appreciable fraction of their
+total energy. The details diﬀer somewhat in a 1 →2 decay
+(electron capture) and a 1 →3 decay (β decay) and are
+discussed separately in Secs. III A–III B.
+In either case, for the decays with Q in the MeV range
+considered here, the recoiling nucleus will carry ≲100 eV
+of energy due to its large mass. Extrapolation of the
+expected range of such recoils from greater-than-keV ener-
+gies [78] to the extremely low energies considered here
+indicates that the recoiling nucleus would typically be
+010315-3
+===== PAGE 4 =====
+CARNEY, LEACH, and MOORE
+PRX QUANTUM 4, 010315 (2023)
+(a)
+(b)
+FIG. 1.
+A schematic of the detection concept described in the text. (a) A close-up of a single spherical nanoparticle, schematically
+showing (i) a β−decay, for which the nuclear recoil is stopped in the nanosphere and the e−and ¯νe exit the particle, and (ii) an electron-
+capture (EC) decay, for which only the νe and lower-energy atomic x rays or Auger e−are emitted, such that the nanosphere recoils with
+a momentum nearly equal and opposite to that of the emitted νe. (b) A cut-away view of the trap concept and surrounding detectors.
+The trap is formed by a low-proﬁle high-numerical-aperture objective, with two additional long-working-distance objectives positioned
+perpendicularly to the trapping objective to collect scattered light. Scintillator panels instrumented with SiPM arrays surround the trap
+on all sides to reconstruct emitted secondary particles. The inset shows an enlargement of the trapping region, schematically showing
+traps for multiple particles formed with a tweezer array [69–76].
+expected to stop within a (10–100)-nm nanosphere (see
+further discussion in Sec. III D below). On the other hand,
+the charged or radiative secondaries will often be ejected.
+From an experimental standpoint, these secondaries can
+provide a convenient trigger: i.e., we can study momen-
+tum kicks to the nanosphere conditioned on knowing that
+a decay happened by detection of a secondary particle. As
+we describe in detail below, the EC secondaries have suf-
+ﬁciently low momentum that we do not need to measure
+them precisely, whereas in the β−case we need reasonably
+accurate measurements of the energy and emission angle.
+We consider using mechanical sensors of mass ms in
+harmonic traps of frequency ωs, read out with a sensi-
+tivity around the “standard quantum limit” (SQL) [79],
+which describes the accuracy of simultaneous weak mea-
+surements of position and momentum when the dominant
+errors arise from the measurement process itself, due to
+the Heisenberg uncertainty relation [80]. A measurement
+at the SQL can determine ps (for an impulse delivered
+over time τ ≪ω−1
+s ) with accuracy [81,82]
+pSQL =
+
+ℏmsωs = 15 keV ×
+ ms
+1 fg
+1/2 ωs/2π
+100 kHz
+1/2
+.
+(5)
+Examples of such devices in current operation include the
+work reported in Refs. [28,29,31]. These numbers sug-
+gest that searches for heavy sterile neutrinos with m4 ≳
+100 keV and with branching ratios |Ue4|2 ≲10−4 will be
+relatively straightforward with existing technologies, using
+trapped nanospheres with radius approximately 100 nm.
+On the other hand, they also suggest that direct mass
+reconstruction of the light neutrino masses will require
+substantially smaller sensor masses, potentially down to
+single ions, or more massive systems operated well below
+the SQL (see Sec. IV).
+III. DETECTOR AND SEARCH DESIGN
+The concept for sterile neutrino searches is shown in
+Fig. 1, along with a possible experimental design. To
+reconstruct the nanosphere momentum, the position of the
+nanosphere is measured continuously in each of the three
+independent Cartesian DOFs of the COM motion using
+the light scattered by the nanosphere and its momentum
+is reconstructed from these measurements. As described in
+Sec. II, quantum limited measurement of the nanosphere
+position has been reached in existing systems [28,29,31].
+The avoidance of thermal noise requires operation at
+ultrahigh-vacuum (UHV) pressure ≲10−8 mbar and high-
+numerical-aperture (NA) collection optics surrounding the
+trap to collect as much of the information carried in the
+light scattered by the nanosphere as possible [28,29,31,83].
+In the z DOF, the backscattered light contains the
+majority of information about the z displacement and the
+trapping objective itself can be used to collect this light
+[29,83]. For the x and y DOFs, high light collection com-
+petes with the requirement to detect coincident secondary
+particles from the decay. For this reason, high-NA long-
+working-distance objectives are placed on only two sides
+of the trapping region to collect side-scattered light, while
+the remaining three sides of the trap have no interven-
+ing material between the nanosphere and scintillator slabs
+positioned in a cubic arrangement at approximately 5 cm
+distance on each side from the trap location [84]. The slabs
+are instrumented with an array of pixelated light detec-
+tors [e.g., silicon photomultipliers (SiPMs)] to detect the
+energy and emission angle of the e−and x rays emitted
+010315-4
+===== PAGE 5 =====
+SEARCHES FOR MASSIVE NEUTRINOS...
+PRX QUANTUM 4, 010315 (2023)
+by the decays. Additional panels are positioned around the
+objectives, to provide further vetoing of backscattered e−
+or other backgrounds. The SiPM dark noise in the approx-
+imately 10 μs detection time for the recoil is subdominant
+for few mm2 pixels, allowing the entire detector, including
+the trap, the vacuum chamber, and the SiPM array, to be
+operated at room temperature.
+To estimate the sensitivity to m4, a Monte Carlo (MC)
+simulation of the decay and detection process is performed.
+This simulation produces the primary particles (i.e., the ν
+and recoiling nucleus) as well as secondary particles (γ ,
+β, x rays, and Auger e−) for each decay based on the
+decay products and branching ratios from Ref. [85]. For
+β−decays, the e−energy is sampled assuming the spectral
+shape for an allowed transition [86]. However, an advan-
+tage of the proposed technique is that it does not depend
+on the detailed spectral shape for a given decay or pre-
+cise knowledge of that shape. The simulation assumes that
+the nuclear recoil fully stops in the particle (transferring its
+full momentum to the COM), while all γ and x-ray pho-
+tons leave the particle with no energy loss. The energy loss
+for electrons from β decay or Auger e−within the particle
+is randomly simulated using calculations of the electronic
+stopping power from Refs. [87,88], assuming a decay
+location uniformly distributed in the nanosphere volume.
+Noise is added to the nanosphere momentum reconstruc-
+tion assuming an information collection eﬃciency in each
+direction of (ηx, ηy, ηz) = (0.4, 0.4, 0.6) [28,29,83]. The
+angle of the emitted secondary is assumed to be recon-
+structed with an accuracy of 0.02 rad. This corresponds,
+e.g., to 1-mm resolution on the detection of the secondary-
+particle interaction location at a distance of 5 cm from
+the nanosphere, based on the expected few-millimeter pix-
+elization of the SiPM array. The fractional energy resolu-
+tion for detection of the emitted MeV-scale e−is assumed
+to be σE/E = 0.01√(1 MeV)/E, consistent with a light-
+collection eﬃciency for the SiPM array ≳25% (or, e.g.,
+with pixelized Si-particle detectors, which can provide
+improved energy resolution at lower energies). For EC
+decays, the energy of the secondary Auger e−and x rays
+does not need to be precisely determined and their emis-
+sion angle can be reconstructed with the SiPM array even
+with relatively poor energy resolution. We assume that the
+secondary particle can be determined to be either a γ or
+e−with high accuracy by monitoring the change in the net
+electric charge of the nanosphere before and after the decay
+[49,89].
+As described above, the trapping and measurement tech-
+niques proposed here allow a variety of isotopes to be
+considered as the source of the decay. The primary require-
+ment is that the nanospheres have suﬃciently low optical
+absorption at the trapping laser wavelength that inter-
+nal heating of the particle does not cause melting or
+particle loss in vacuum [42,90]. This enables consideration
+of doping (or implanting) nearly any isotope of interest
+in a silica nanosphere at percent-level concentrations or
+higher.
+Biomedical applications have produced spherical nano-
+and microparticles including, e.g., P [91], S [92], Y [93]
+doped into SiO2. Gaseous elements, including H2 have
+been stably stored at greater than percent-level concentra-
+tions in SiO2 microparticles (including hollow shells) by
+diﬀusion into the solid particle at high temperature and
+pressure [94]. It is also possible to produce nanoparticles
+from a speciﬁc material containing a given isotope, pro-
+vided that it has suﬃciently low optical absorption. For
+example, yttria (yttrium oxide Y2O3) and vanadium oxide
+are high-quality optical materials at infrared wavelengths
+and can be fabricated into nanoparticles [95,96]. Polymers
+are also commonly used for producing optically trans-
+parent nanoparticles and, e.g., 3H could be embedded at
+high concentrations in tritiated-polymer [97] nanospheres.
+While a detailed study of the optimal fabrication method
+of particles containing a speciﬁc isotope is not considered
+here, it is expected that there are possible fabrication tech-
+niques reaching 1–10% or higher doping levels for many
+or all of the isotopes considered.
+A. Electron-capture decays
+For unstable neutron-deﬁcient isotopes with QEC <
+2me, β+ decay is energetically forbidden and thus only EC
+decay is possible, in which a nucleus X with atomic num-
+ber Z and mass number A decays to the daughter Y through
+capture of an atomic electron and emission of a νe:
+A
+ZX + e−→A
+Z−1 Y + νe.
+(6)
+This provides a two-body ﬁnal state with an emitted νe, for
+which a reconstruction of the recoiling daughter nucleus
+Y can provide a measurement of the νe momentum using
+the techniques discussed above. At picosecond time scales
+following the decay, the atomic vacancy left by EC will be
+ﬁlled by a higher-lying electron, typically producing addi-
+tional Auger e−or x rays with a total energy of several
+kiloelectronvolts for A < 100 isotopes. For 100-nm-scale
+particles, secondary e−or x rays with approximately keV
+masses will essentially always leave the nanosphere and
+provide a trigger for the event. However, the momentum
+carried by such secondaries is ≲100 keV even for the
+Auger e−(and in the few keV range for the x rays), while
+the ν can carry momentum of several hundred kiloelec-
+tronvolts for the decays of interest. Thus, such secondaries
+provide a subdominant contribution to the total momen-
+tum imparted to the nanosphere, although accurate recon-
+struction of the momentum carried by Auger e−can be
+important for m4 ≲100 keV. In particular, any attempt to
+determine the light SM neutrino masses in this way would
+require very accurate measurements of these Auger e−or
+stopping the e−within the particle itself (see Sec. IV).
+010315-5
+===== PAGE 6 =====
+CARNEY, LEACH, and MOORE
+PRX QUANTUM 4, 010315 (2023)
+For suﬃciently high neutrino mass that the secondary
+e−or x rays can be neglected, the diﬀerence in momentum
+between a decay to a sterile state with mass m4 and a light
+neutrino with mi ≈0 (for i = 1, 2, 3) is
+|p4| −|pi| ≈Q
+
+1 −(m4/Q)2 −1
+	
+.
+(7)
+In particular, as m4 approaches Q, the presence of a heavy
+sterile state can be identiﬁed by a small peak separated
+in the reconstructed momentum from the decays to the
+approximately massless state, as shown in Fig. 2.
+Table I lists the EC candidate isotopes considered here,
+which have half-lives less than approximately 1 year to
+provide a suﬃcient number of decays in a nanoscale parti-
+cle. Of these, an especially simple case is 37Ar (T1/2 = 35
+days), which has a pure transition to the nuclear ground
+state of 37Cl with QEC = 814 keV. The EC decay of 37Ar
+is typically accompanied by a (2–3)-keV Auger e−or
+x ray that can be used in coincidence with detection of
+the nanosphere recoil to identify decay events and avoid
+backgrounds. In this case, the nanosphere recoils with a
+momentum that is nearly equal and opposite to the momen-
+tum of the outgoing ν and the measurement accuracy
+of the Auger e−or x-ray energy and angle provides a
+subdominant correction to the reconstruction of m4.
+(
+)
+)
+(
+Counts per 20 keV
+Counts per 20 keV
+FIG. 2.
+The simulated spectrum for the reconstructed neutrino
+momentum, |pν|, for a 100-nm-diameter nanosphere contain-
+ing 1% by mass of the EC-unstable isotope 37Ar. We assume
+an exposure of 30 days and 40% collection eﬃciency for the
+emitted Auger e−or x ray. Also overlaid (and visible in the
+inset) is the expected spectrum arising for a heavier sterile state
+with m4 = 750 keV and at the existing upper limits for a sterile
+ν at this mass, |Ue4|2 = 2 × 10−4 [15]. Backgrounds and mis-
+reconstructed events are not included in the simulation (for a
+detailed discussion of the required background rejection to meet
+this assumption, see Sec. III D). The black data points with error
+bars indicate the simulated counts for a typical experimental real-
+ization, along with the best ﬁt to these data for decays to SM
+neutrinos (blue) and the heavier sterile state (red).
+Figure 2 shows a MC simulation of the nanosphere-
+recoil momentum spectrum for 105 37Ar decays, with the
+expected spectrum for an example of a heavy-mass state
+with m4 = 750 keV and mixing |Ue4|2 = 2 × 10−4 (just
+below the current upper limit at 95% C.L.) [15] overlaid
+and shown in the inset.
+This detection principle, however, is generic in the sense
+that any isotope that can be contained in the nanosphere
+can be used and the other isotopes in Table I would produce
+similar sensitivity for m4 up-to their respective QEC values,
+as described in Sec. III C. However, among the isotopes in
+Table I, 7Be provides a relatively unique case. Approxi-
+mately 90% of 7Be decays proceed to the 7Li ground state,
+with the emission of a single Auger e−with an energy of
+approximately 50 eV [98] and no accompanying x rays.
+The single emitted Auger has a mean range in silica of
+≲5 nm [87], so in the vast majority of decays the Auger
+e−will stop in the nanosphere, providing a truly two-
+body decay in which the total recoil momentum of the
+nanosphere is exactly equal and opposite to that of the
+outgoing ν. While such a decay is especially simple to
+reconstruct, it has the drawback that there are no coincident
+secondary particles that can be used to veto backgrounds.
+For this reason, we consider below only the approximately
+10% of 7Be decays that proceed through an excited state of
+7Li, emitting a 478-keV γ in coincidence. If backgrounds
+(see Sec. III D) could be made suﬃciently low that this
+coincidence was not required for background rejection,
+7Be decays to the ground state would present an especially
+simple system for sterile ν searches, possibly avoiding the
+need for the SiPM arrays surrounding the trap.
+B. β decays
+For β decays, in which both an e−and a ¯νe are present
+in the ﬁnal state,
+A
+ZX →A
+Z+1 Y + e−+¯νe,
+(8)
+simply constructing the invariant mass of the neutrino
+through energy-momentum conservation (as done, e.g., in
+Ref. [23]) is not suﬃcient to optimally separate a popu-
+lation of decays emitting heavy sterile ¯ν from decays to
+light ¯ν. Instead, optimal sensitivity can be reached through
+the correlation of the measured β−kinetic energy Te =
+Ee −me with the reconstructed neutrino three-momentum.
+Energy-momentum conservation at the decay location
+gives the total neutrino energy Eν = Q −Te, neglecting
+the tiny kinetic energy of the recoiling daughter nucleus.
+For an event with a given electron kinetic energy, the dif-
+ference in the reconstructed neutrino momentum between
+a heavy m4 state and the eﬀectively massless mi state is
+|p4| −|pi| =
+
+(Q −Te)2 −m2
+4 −(Q −Te).
+(9)
+010315-6
+===== PAGE 7 =====
+SEARCHES FOR MASSIVE NEUTRINOS...
+PRX QUANTUM 4, 010315 (2023)
+TABLE I.
+Selected EC isotopes of interest for heavy-neutrino-mass searches between approximately 0.1 and 1 MeV. The QEC value
+for the decay and half-life are listed for each candidate, along with the energies and intensities (i.e., the percentage of primary decays
+of the parent nucleus for which a given secondary particle is emitted) of the secondary Auger e−, x rays, or for γ from decays to
+nuclear excited states. The live time required to observe 104 events (in number of nanospheres × days) assuming 100-nm-diameter
+SiO2 nanospheres with 1% loading by mass for each isotope, 40% detection eﬃciency for the secondary particles, and the detector
+parameters described in the text, is given in the last column. The isotope data are taken from Ref. [85].
+Isotope
+QEC
+T1/2
+Auger energies
+X-ray energies
+γ energies
+Live time
+(keV)
+(days)
+(keV)
+(keV)
+(keV)
+(sphere days)
+7Be
+862
+53.2
+0.045 (100%)
+477 (10.6%)
+24
+37Ar
+814
+35
+2.4 (81%)
+2.6 (8.2%), 2.8 (0.5%)
+9
+49V
+602
+330
+4.0 (69%), 0.4 (149%)
+4.5 (17.1%), 4.9 (1.9%)
+119
+51Cr
+752
+27.7
+4.4 (66%), 0.5 (146%)
+4.9 (19.4%), 5.4 (2.2%)
+320.1 (9.9%)
+9
+68Ge
+107
+271
+8.0 (42%), 1.1 (122%)
+9.2 (39%), 10.3 (5%)
+147
+72Se
+361
+8.4
+9.1 (53%), 1.2 (167%)
+10.5 (62%), 11.7 (8%)
+45.9 (57%)
+4
+The largest diﬀerence occurs for events where the electron
+gets the maximum allowed kinetic energy consistent with
+a ﬁnal state m4, Te ≈Q −m4, where |pi| −|p4| ≈m4.
+Figure 3 shows an example of the simulated reconstructed
+|pν| versus Te for 32P, which decays to the ground state of
+32S with Q = 1710 keV, for several diﬀerent values of m4.
+For low Te, where the ¯ν carries energy much larger than
+m4, the massive and approximately massless case converge
+for the lowest sterile ν masses considered. However, in the
+tail of the β distribution at high Te, the distributions can be
+distinguished as m4 approaches Eν.
+Similar to EC, a number of candidate β−-decay isotopes
+could be considered for such searches. Table II provides
+some possible examples spanning a range of Q values.
+The complete list of possible β−emitters that may be
+)
+)
+(
+(
+-
+FIG. 3.
+The calculated distribution of the reconstructed ν
+momentum, |pν|, versus the electron kinetic energy, Te, for 32P
+β−decay, for various values of m4, assuming a 100-nm-diameter
+nanosphere with the detection eﬃciencies described in the text.
+The probability density for this distribution for light neutrinos
+(with mi ≈0) is shown as the black shaded histogram, sur-
+rounded by the 2σ contour containing 95% of simulated events.
+The corresponding 2σ contours for nonzero m4 are indicated by
+the colored lines.
+suitable for such experiments is much larger than for EC,
+given the number of bound neutron-rich systems in the life-
+time range required and the uniqueness of this weak-decay
+mode.
+C. Projected sensitivity
+The MC simulation described in Sec. III is used to gen-
+erate probability density functions (PDFs) for the recon-
+structed ν momentum, as a function of the neutrino mass,
+m4. For EC decays, one-dimensional PDFs versus |pν| are
+simulated, while two-dimensional PDFs of reconstructed
+|pν| versus Te are generated for β-decaying isotopes, sim-
+ilar to the examples shown in Figs. 2 and 3. For a given
+experimental live time, toy experiments are drawn from
+a light-ν-only PDF (mi ≈0), given the T1/2 for a given
+isotope and assuming a trigger eﬃciency for tagging the
+TABLE II.
+The selected β−-decay isotopes considered here.
+The energy of the end point (i.e., the maximum kinetic energy
+possible for the β particle) and the half-life are given for each
+isotope. In the case of 90Y, the decay to the ground state is domi-
+nant (99.99% of decays). Rare decays to excited states of the 90Zr
+daughter are also possible, coincident with either approximately
+2-MeV-conversion e−or deexcitation γ . These decay branches
+are simulated in the MC but overlap primarily with the low Te tail
+of the ground-state decay and do not substantially aﬀect the sen-
+sitivity at high m4. The live time to observe 104 decays is given
+following the assumptions in the text (i.e., 25-nm-diameter poly-
+mer nanospheres for 3H, 50-nm-diameter silica nanospheres for
+35S, and 100-nm-diameter silica nanospheres for 32P and 90Y).
+The isotope data are taken from Ref. [85].
+Isotope
+β end point (keV)
+T1/2 (days)
+Live time
+(sphere days)
+3H
+18.6
+4500
+252
+32P
+1711
+14.3
+2.8
+35S
+167
+87.4
+189
+90Y
+2279 (99.99%)
+2.7
+1.7
+010315-7
+===== PAGE 8 =====
+CARNEY, LEACH, and MOORE
+PRX QUANTUM 4, 010315 (2023)
+)
+(
+)
+(
+-
+-
+FIG. 4.
+The projected sensitivity to the mixing of a heavy-mass state, |Ue4|2, as a function of the mass, m4, for a variety of isotopes,
+assuming that a single 100-nm-diameter nanosphere is measured for 1 month with 1% loading by the mass of the isotope of interest,
+and assuming the detection eﬃciencies and experimental parameters described in the text. The sensitivity for isotopes decaying by EC
+(left) and β−decays (right) are shown separately. The projected sensitivity is compared to the most sensitive existing laboratory limits
+in this mass range (gray) [7–15,17]. If sterile neutrinos constitute a signiﬁcant fraction of dark matter, limits on x-ray emission from
+their radiative decays may also provide constraints in this mass range (not shown) [4].
+secondary particle of 40% (limited by the solid-angle cov-
+erage of the SiPM array). For experimental live times
+longer than T1/2, we assume that the nanospheres are
+replaced with new nanospheres containing the assumed
+initial isotope loading once every half-life (i.e., once every
+few days for the shortest half-lives considered), such that
+the number of decays remains roughly steady throughout
+the measurement period. A negative-log-likelihood (NLL)
+ﬁt is then performed to each toy experiment, with a model
+consisting of a light ν plus heavy ν component (as a
+function of |Ue4|2 at each m4), and the median 95% CL
+sensitivity for a given m4 is determined [1]. The resulting
+estimated sensitivities for a variety of EC and β-decaying
+isotopes with optimum sensitivity in the m4 ≈0.1–1 MeV
+range are shown in Fig. 4.
+As shown in Fig. 4, a large number of isotopes are
+expected to provide comparable sensitivity, covering the
+mass range from approximately 100 keV to a few mega-
+electronvolts. Measuring only a single 100-nm nanosphere
+for 1 month at existing detection limits would already
+probe up to an order of magnitude smaller values of
+|Ue4|2 than existing searches, for the above assumptions.
+Several commonly used isotopes, such as 32P, provide
+signiﬁcant coverage of the allowed parameter space. As
+shown in Fig. 5, larger exposures (either using arrays
+of nanospheres or longer integrations) can improve the
+sensitivity to smaller values of |Ue4|2.
+Figures 4–5 also show that existing sensitivities already
+demonstrated for 100-nm nanospheres are optimized for
+searching for approximately MeV-scale-mass sterile ν.
+Although less developed to date, sensitivity to lower
+masses may be possible with smaller nanospheres, which
+can reach correspondingly lower momentum thresholds.
+Similarly, reaching the SQL at lower trap frequencies can
+further improve the low-mass reach.
+For example, Fig. 5 also shows the projected reach
+for searches with smaller nanospheres for lower-end-point
+isotopes such as 3H and 35S. For the lower-momentum
+transfers for these isotopes, the nanosphere size and res-
+onant frequency are tuned to maintain approximately a
+signal-to-noise ratio of 10 for recoils at the end point and
+SQL-limited detection. For 3H, we assume a 25-nm diam-
+eter f0 = 1 kHz trap frequency and a 20% loading by mass,
+which may be possible for a tritiated polymer (e.g., acrylic
+(
+)
+-
+FIG. 5.
+The estimated sensitivity for a variety of nanosphere
+sizes, exposures, and β-decay isotopes spanning a sensitivity
+range from approximately 1 to 1000 keV. The background-free
+sensitivity for exposures of 1 nanosphere × 1 month (solid), 10
+nanospheres × 1 year (dashed), and 1000 nanospheres × 1 year
+(dotted) are shown. The nanosphere sizes and loading fractions
+assumed for each isotope are described in the text. The most sen-
+sitive existing laboratory limits are also shown (gray) [7–15,17].
+If sterile neutrinos constitute a signiﬁcant fraction of dark mat-
+ter, limits on x-ray emission from their radiative decays may also
+provide constraints in this mass range (not shown) [4].
+010315-8
+===== PAGE 9 =====
+SEARCHES FOR MASSIVE NEUTRINOS...
+PRX QUANTUM 4, 010315 (2023)
+or polystyrene) nanosphere. For 35S, a 50-nm-diameter sil-
+ica nanosphere with f0 = 10 kHz and 1% mass loading
+is assumed. These lower resonant frequencies are typical
+of the expected frequencies in a radio-frequency (rf) trap
+at charge-to-mass ratios achievable for these smaller par-
+ticles [99,100]. While SQL-limited detection for smaller
+particles allows lower momentum sensitivity, the reduced
+activity for a ﬁxed number of nanospheres reduces the
+sensitivity to small branching ratios to heavy sterile ν.
+These projected sensitivities are compared to 32P, using
+the 100-nm-diameter silica nanosphere, f0 = 100 kHz (cor-
+responding to existing optical traps for this particle size),
+and 1% loading also shown in Fig. 4. Higher trap frequen-
+cies or larger particles could be used while maintaining
+the same mass sensitivity if sub-SQL sensitivities were
+achieved (see further discussion in Sec. IV).
+D. Backgrounds
+The sensitivity projections in Figs. 4–5 assume that the
+decays originating within the nanospheres can be identiﬁed
+with negligible backgrounds over the assumed exposure
+times. As with any rare event search, backgrounds that are
+diﬃcult to anticipate are possible and background stud-
+ies will be required in prototype detectors to conﬁrm the
+ultimate reach of such a system. However, reaching suﬃ-
+ciently low background levels for the projections above is
+plausible, as described in the following sections.
+1. Recoil backgrounds
+Backgrounds can arise from interactions producing
+momentum recoils of the nanosphere at the keV-MeV scale
+but that do not result from the decay of interest. However,
+the signature of a decay event can generally be tagged with
+a triple coincidence between: (1) the nanosphere recoil;
+(2) detection of the secondary particle, e.g., the emitted
+β; and (3) detection of a change in the charge state of the
+nanosphere. We note that in the case of EC decays in which
+no Auger electrons escape the nanosphere and only x rays
+are emitted, the third signature would be absent and only
+a double coincidence would be possible. However, for the
+EC decays considered in Table I, with the exception of 7Be
+all decays would be expected to emit a greater-than-keV
+Auger e−in at least ≳50% of decays. Events without a
+change in the charge of the nanosphere could be vetoed
+while maintaining most of the experimental live time.
+Coincident detection of these three signatures would be
+expected to provide a background-free signal even at the
+largest exposures assumed above, with the primary eﬃ-
+ciency loss arising from the detection of the secondary
+particle (assumed above to be 40% eﬃcient). Further opti-
+mization of the experimental design might further improve
+this eﬃciency. Existing optical traps for microspheres in
+vacuum have measured spontaneous charging rates for
+neutralized particles below one 1e−per week [42,101].
+Experiments searching for possible dark-matter-induced
+recoils of optically trapped particles have found back-
+ground recoil rates < 1 per day [39] at gigaelectronvolt
+momentum transfers, dominated by environmental acous-
+tic and vibrational noise, for which substantial further
+reduction is possible. With care in the choice of compo-
+nents and modest shielding around the detector, it should
+be possible to limit the rate of MeV-scale radiogenic
+and cosmogenic events detected by the SiPM array to <
+10–100 Hz (and much lower background rates have been
+achieved in underground detectors) [102]. For a room-
+temperature SiPM array with dark noise ≲1 MHz/mm2, a
+detection threshold of > 5 photoelectrons (suﬃciently low
+for tagging keV-scale Auger e−or x rays) would provide a
+subdominant background rate. Assuming that these back-
+ground rates are uncorrelated, the accidental coincidence
+rate for all three signatures within the 10-μs resolution of
+the event time would be as low as 10−11/(sphere yr), which
+is lower by many orders of magnitude compared to the
+exposures assumed above.
+To generate a signiﬁcant background, a nanosphere-
+recoil rate of ≫1 Hz at approximately megaelectron-
+volt momentum transfers would be required. Due to
+the extremely small geometric cross section of the
+nanospheres, external radiogenic and cosmogenic back-
+grounds provide orders-of-magnitude lower rates. Avoid-
+ing internal radiogenic decays would require minimiz-
+ing contamination of the nanospheres by short-lived
+radioisotopes other than the species of interest. The max-
+imum momentum transferred from gas collisions with the
+nanospheres is < 100 keV for H2 background gas at room
+temperature [40], which would not provide a signiﬁcant
+background for m4 ≳0.1 MeV. For lower-mass searches
+employing, e.g.,
+3H or
+35S, collisions with individual
+residual gas molecules could provide a signiﬁcant back-
+ground but become negligible at pressures ≲10−11 mbar
+or through cooling of the chamber walls (and ambient gas
+temperature) to 4 K [28,40]. Other backgrounds consid-
+ered for similar searches for nanosphere impulses in Ref.
+[40] are also expected to be subdominant for the searches
+proposed here.
+2. Containment of the recoiling nucleus
+If the nuclear recoil escapes the nanosphere and fails to
+transfer its full momentum to the nanosphere COM, the
+reconstructed ν momentum can fall below the expected
+value when the recoil is fully stopped. Such events—if
+present for even a small fraction of decays—would lead
+to a background of events lying below the main distribu-
+tion for decays emitting light neutrinos. While such events
+would not produce a well-deﬁned peak at the expected
+momentum for decays to a heavy sterile state, they could
+obscure such a signal and limit the ultimate experimental
+sensitivity.
+010315-9
+===== PAGE 10 =====
+CARNEY, LEACH, and MOORE
+PRX QUANTUM 4, 010315 (2023)
+Determination of the fraction of such nuclear recoils at
+the relevant recoil energies that may escape the nanosphere
+is diﬃcult. For greater-than-keV masses, the range of
+recoiling nuclei is well characterized and can be mod-
+eled in simulation tools such as SRIM-2013 [103,104].
+SRIM calculations indicate that the mean projected range
+for the isotopes considered in Tables I–II vary from 0.2
+to 0.9 nm, with a standard deviation below 0.5 nm. How-
+ever, we emphasize that SRIM has not been validated in
+detail at the relevant nuclear-recoil energies from 3 to 70
+eV and these calculations require extrapolation to substan-
+tially lower energy than for which data exist. 32P, which is
+a light isotope with a large end-point energy, is expected
+to present the worst case for this background among the
+isotopes considered here. A SRIM simulation is performed
+for 32P in SiO2 for nuclear-recoil energies corresponding to
+electrons near the decay end point (i.e., approximately 70-
+eV nuclear recoils), which gives a median projected range
+of 1.0 nm for the recoiling nuclei, with a maximum linear
+distance of 2.7 nm from the decay location for any of the
+106 simulated recoils.
+Using the SRIM calculations above as a rough esti-
+mate, approximately 5% of recoils might be expected to
+escape a 100-nm-diameter nanosphere with 32P uniformly
+distributed throughout its volume, which would present a
+potentially signiﬁcant background if not otherwise vetoed
+(e.g., through identifying a change in the charge state of
+the nanosphere or by detecting the emitted ion or atom).
+However, this calculation ignores the energy required to
+escape the nanosphere surface (due to chemical interac-
+tions, Van der Waals forces, etc.), which may be relevant
+for the approximately electronvolt-scale recoil energies
+considered here. Dedicated measurements will likely be
+required to characterize this potential background for real-
+istic nanospheres, over the range of recoil energies and
+charge states possible for various isotopes.
+If such a background ultimately became a dominant lim-
+itation to the proposed techniques, a straightforward tech-
+nical solution would be to deposit a few-nanometer-thick
+shell of SiO2 on the nanosphere exterior after fabrication of
+the nanosphere core containing the isotope of interest. Due
+to the standard “bottom-up” synthesis process for spher-
+ical nanoparticles of this size [105], such a layer can be
+chemically accreted after production of the core, and core-
+shell silica nanospheres of exactly this type containing a β
+emitting core surrounded by an inactive shell are commer-
+cially available [106]. Similar particles are also commonly
+produced for medical applications when toxicity from the
+escape of the recoiling nuclei is a concern [107].
+3. Misreconstruction of secondary particles
+For searches with β-decaying isotopes, misreconstruc-
+tion of the kinetic energy of the e−can lead to errors
+in the estimate of the ¯ν momentum and inferred mass.
+For example, e−that backscatter from the scintillator and
+do not deposit their full energy could be reconstructed
+at lower Te, falling below the main distribution for well-
+reconstructed events. Such events could present a similar
+background distribution to that described above for events
+where the nuclear recoil may escape the nanosphere. Opti-
+mization of the detector design to avoid (or detect and
+veto) such backscattered events is important for reaching
+the background-free sensitivities above. Other sources of
+event misreconstruction due to, e.g., detector gaps or edge
+eﬀects, noise, etc., must also be mitigated. However, if
+suﬃciently accurate reconstruction of secondary e−ulti-
+mately proves infeasible at the desired background levels,
+the selection of EC decays emitting only x rays (with a
+measurement of the charge state ensuring that no Auger
+e−escaped the nanosphere) would avoid any need for
+accurate reconstruction of the secondary energy for sterile
+neutrinos in the ≳100-keV mass range.
+IV. TOWARD LIGHT-NEUTRINO-MASS
+MEASUREMENTS
+While the searches for heavy-mass states described in
+Sec. III appear to be feasible with existing optomechanical
+technologies, an obvious question is whether such lev-
+itated mechanical systems could ultimately be extended
+to reach sensitivity to the light masses, mi (i = 1, 2, 3),
+of which at least two are nonzero. The best existing lab-
+oratory constraints indicate that the mass scale of these
+light ν is < 800 meV [108], while cosmological measure-
+ments based on ﬁts to the standard cosmological model
+suggest that the sum of masses is ≲200 meV [67,109].
+Neutrino-oscillation experiments provide a lower bound
+on the mass scale, requiring at least one of the light ν
+to have mass ≳50 meV [110]. Given the much smaller
+masses than the heavy sterile case, reaching sensitivity
+to the masses of the SM ν is substantially more diﬃ-
+cult. Indeed, directly measuring the masses of the SM ν
+is the focus of a decades-long experimental eﬀort involv-
+ing large-scale detectors [111] and is key to identifying the
+beyond-the-SM processes that may account for the origin
+of the nonzero masses of the light states.
+An ambitious goal for these techniques would be to per-
+form momentum reconstruction that is sensitive enough to
+resolve the masses of the light neutrinos on an event-by-
+event basis, which we focus on below. However, a nearer-
+term measurement might be to statistically detect the scale
+of neutrino masses, averaging over a large number of
+decays N. With a β decay, even in the most optimistic
+scenario and working near the end point, the ﬁrst goal
+requires momentum measurements with sensitivity around
+the light neutrino masses p ≈mi [see Eq. (9)], i.e., at
+least as good as p ≲200 meV. If systematic errors were
+reduced suﬃciently to permit averaging over many events,
+010315-10
+===== PAGE 11 =====
+SEARCHES FOR MASSIVE NEUTRINOS...
+PRX QUANTUM 4, 010315 (2023)
+measurement of the eﬀective mass mβ =
+
+3
+i=1 |Uei|2m2
+i
+[111] could be achieved with approximately
+√
+N poorer
+event-by-event sensitivity. Below, we discuss what would
+be required for an optomechanical sensor to achieve these
+sensitivities.
+Beyond the required momentum sensitivity, there are
+several conceptual challenges that must be overcome for
+possible measurements of the light neutrino masses:
+(a) For typical EC or β-decay energies, the light ν are
+highly relativistic and the eﬀect of their rest mass
+on their momentum is correspondingly suppressed.
+One needs to ﬁnd a decay with much lower energy
+release Q and work near the end of the spectrum
+where the ν are emitted with low kinetic energy.
+(b) Heisenberg uncertainty requires that the initial posi-
+tion uncertainty x of the decaying parent is suﬃ-
+ciently large to be consistent with the small required
+momentum uncertainties.
+(c) Secondary processes due to the coupling of the
+decaying atom to its surroundings can signiﬁcantly
+broaden the momentum carried by an emitted ν in
+solid materials.
+The latter two issues have received considerable attention
+recently, because they may cause fundamental diﬃcul-
+ties for experiments aiming to measure neutrino masses
+and relic neutrino-capture events [63,64,112]. The local-
+ization of the parent nucleus (b) has also been recently
+considered in the context of neutrino oscillations of reac-
+tor neutrinos [113–116]. While the broadening issue (c)
+will require detailed solid-state engineering, the momen-
+tum reconstruction technique described here, combined
+with quantum control of the center of mass of the solid
+in which the isotopes are located, may provide new tools
+for solving issue (b).
+A. Ultralow-Q-value decays
+As described above, kinematic reconstruction of the
+neutrino mass is most eﬀective for nonrelativistic neutri-
+nos [see Eqs. (7) and (9)]. For typical EC Q values and
+β-decay end points with Eν approximately in the MeV
+range, the corresponding diﬀerence in momentum sensi-
+tivity needed to resolve the neutrino mass in a given event
+|pν| ≲1 μeV, even at the current laboratory upper limits
+on mi. The momentum diﬀerence could be made signiﬁ-
+cantly larger, up to |pν| ≈mi ≲200 meV, by observing
+much-lower-energy ν than in typical nuclear decays.
+Common “low-energy” decays such as
+3H (Q =
+18.6 keV) and 163Ho (Q = 2.8 keV) would still require
+very large arrays of nanoparticles, since decays emitting
+ν with energies Eν ≲1 eV make up only a tiny fraction of
+the overall decay rate [111]. There is, however, signiﬁcant
+interest in identifying a new class of “ultralow”-Q-value
+EC [117,118] or β [119] decays, in which a branch of
+the decay occurs to an excited state of the daughter. If
+the energy of this excited state roughly corresponds to the
+total transition energy, an accidental cancellation is pos-
+sible, providing Q < 1 keV. A known example of such a
+transition is in 115In [120,121], which typically decays via
+β−emission with an end-point energy of approximately
+0.5 MeV, but for which a small branching ratio (approx-
+imately 10−6) to an excited state exists, providing a β−
+transition with an end point of 147 eV. However, the long
+half-life of this decay (4.4 × 1014 yr) and the small branch-
+ing ratio to the excited-state transition translates to a much
+larger required mass per decay with Eν ≲1 eV than 3H or
+163Ho [111].
+Nonetheless, a recent survey has identiﬁed more than
+100 candidates for other potential ultralow-Q-value β or
+EC transitions via excited states, which remain to be pre-
+cisely measured [119]. The realization of an optomechani-
+cal measurement of the light ν masses would likely require
+a transition with a suﬃciently low Q value, an experi-
+mentally manageable T1/2, and a high branching ratio to
+be identiﬁed through such measurements. While specula-
+tive, the existence of such a transition is plausible and we
+strongly encourage the precision atomic mass measure-
+ment community to continue their work in this area. We
+further comment on the measurement requirements below
+if such a transition was to be identiﬁed. Of course, such
+a transition may permit other existing techniques to be
+used to study neutrino masses [111], although here we
+focus only on the unique properties of an optomechanical
+measurement.
+B. Quantum state preparation and readout sensitivity
+The measurement sensitivity needed to resolve the
+light neutrino masses on an event-by-event basis, p ≲
+200 meV, entails signiﬁcant constraints on both the initial
+state of the source and measurement process from quantum
+mechanics. Comparing with Eq. (5), we see that obtain-
+ing suﬃcient momentum sensitivity will require some
+combination of using smaller-mass mechanical systems,
+low-frequency traps, and/or techniques such as squeez-
+ing [122–124] or back-action evasion [82,125,126] to get
+below the SQL.
+For concrete examples, we can consider the require-
+ments to obtain the p sensitivities above. With a silica
+nanosphere of radius 10 nm trapped at 2π × 1 kHz, the
+SQL corresponds to p ≈50 eV, so measurements at the
+SQL should—at least in principle—be capable of resolv-
+ing a nonzero mβ by averaging over N ≈106 decays if
+limited only by statistical noise. To reach p ∼100 meV
+sensitivity, one could use a monolayer graphene ﬂake with
+area 25 nm2, levitated in a weakly conﬁning trap with fre-
+quency ω = 2π × 100 Hz, although a signiﬁcant amount
+of squeezing is required to achieve sensitivity 20 dB
+010315-11
+===== PAGE 12 =====
+CARNEY, LEACH, and MOORE
+PRX QUANTUM 4, 010315 (2023)
+(
+)
+)
+(
+(
+)
+FIG. 6.
+A qualitative example of the requirements for nanopar-
+ticle state preparation and measurement following the decay. (a)
+A comparison between the quasiprobability distribution for the
+zero-point motion of the COM of a 5-nm-diameter graphene
+ﬂake cooled to the ground state of a weakly conﬁning har-
+monic potential (ω = 2π × 100 Hz) (red) and after squeezing the
+momentum quadrature of the motional state of the nanoparticle
+by 20 dB (blue). (b) The quasiprobability distribution following
+the decay for the nanoparticle COM (blue) and neutrino (green),
+assuming that all secondary particles are trapped within the ﬂake
+and that the ν carries momentum |pν| = 100 meV. The inset
+shows an enlargement of the region highlighted by the black
+dotted box in the main ﬁgure.
+below the SQL even with these parameters. While chal-
+lenging, performing such sub-SQL measurements is a key
+objective of the optomechanics community in the com-
+ing decades [24] and other recently proposed experiments
+require higher levels of squeezing and detection of smaller
+momentum transfers than required here [56,57,127].
+The optomechanical strategy proposed here also has
+fundamental advantages over other techniques. In par-
+ticular, if the unstable isotope is bound to a ﬁxed sub-
+strate, it should be localized in position space to within
+atomic distances x ≲1 nm [64]. Heisenberg uncertainty
+then implies an initial-state momentum uncertainty p ≳
+(2 nm)−1 ≈100 eV. This would naively render the iden-
+tiﬁcation of the neutrino masses impossible. However, the
+ability to monitor the center-of-mass DOF of the mechan-
+ical element with suﬃcient accuracy p to detect the neu-
+trino masses means, in particular, that it can be prepared in
+a suﬃciently narrow momentum-space wave packet [128].
+This corresponds to delocalizing the entire system in posi-
+tion space. Such delocalization requires, e.g., cooling the
+nanoparticle to the ground state of the trapping potential
+and squeezing the motion of the nanoparticle to delocal-
+ize its position and narrow its momentum distribution (see
+Fig. 6). While optimal protocols for this application are the
+subject of future work, levitated optomechanical systems
+provide a substantial ability to control the optical potential
+in real time, allowing the preparation of squeezed or highly
+non-Gaussian states (for recent proposals of experimental
+protocols similar to those that would be required here, see,
+e.g., Refs. [36,37]).
+We also emphasize that due to momentum conserva-
+tion, the internal states of the nanoparticle do not need
+to be directly controlled or measured. It is suﬃcient to
+cool, prepare, and measure only the COM motion of the
+nanoparticle. For example, the decaying nucleus will ini-
+tially be in a thermal motional state near room temperature
+but this internal DOF does not aﬀect the nanoparticle COM
+and the ν leaving the nanoparticle will remain entangled
+with the COM motion such that a suﬃciently precise mea-
+surement of the nanoparticle momentum can determine the
+outgoing ν momentum [129].
+C. Spectral broadening eﬀects
+A key advantage of the techniques proposed here is
+the ability to concentrate the isotope of interest in a solid
+matrix, permitting high densities of the isotope in a small
+volume. However, interactions between the atoms of the
+decaying isotope and the host material can lead to broad-
+ening of the transitions of interest at the electronvolt scale
+due to the eﬀect on the electronic binding energies in the
+parent and daughter atoms on the total energy available to
+the decay (analogous to “inhomogeneous broadening” in
+solid-state laser systems). While not a fundamental limi-
+tation, a solid-state source for such decays would likely
+require the isotope to be positioned in a highly con-
+trolled crystalline lattice to avoid such inhomogeneous
+broadening [130]. Similar ideas have been proposed in
+the literature to create sources based on loading graphene
+[131–134] or other host crystals [135,136] with β emit-
+ters. We note that levitation of micrometer-sized graphene
+ﬂakes has been demonstrated in rf traps [137] and these
+traps could be used to conﬁne other nanoscale objects of
+interest [99,100].
+D. Experimental feasibility
+To perform such a measurement, we consider the pos-
+sibility that an experimentally viable β transition to an
+excited state of the daughter with an end point of approx-
+imately 100 eV or less is identiﬁed from the list of can-
+didates in Ref. [119]. Such a transition will provide a
+spectrum of decays extending to Eν ≲1 eV, which will
+provide the dominant sensitivity to mi. Ideally, this isotope
+decays through an allowed transition to a closely spaced
+excited state, with a partial decay constant to the relevant
+excited-state branch λ ≳1 yr−1 to enable a suﬃcient num-
+ber of decays to be observed, even for nanoparticles of the
+mass assumed in Fig. 6. Finally, an overall half-life long
+enough that the isotope can be produced and implanted
+into the nanoparticles is needed. While not required in
+principle, it is also preferable that the excited-state decay
+to the ground state of the daughter proceeds through a
+forbidden transition, leading to a delay in the emission
+of the high-energy deexcitation γ to allow separation of
+the much smaller momentum carried by the ν. These γ
+010315-12
+===== PAGE 13 =====
+SEARCHES FOR MASSIVE NEUTRINOS...
+PRX QUANTUM 4, 010315 (2023)
+can still be triggered on to avoid backgrounds, while tem-
+porally distinguishing the momentum transferred to the
+nanoparticle.
+For such a β decay, precise measurement of the e−
+momentum at the required precision is technologically
+challenging, although the point-particle nature of the decay
+source may reduce the challenges related to focusing and
+collecting the e−for, e.g., a time-of-ﬂight measurement
+[111,138]. An alternative possibility is to positively charge
+the nanoparticle to provide precise control of the energy of
+any e−leaving the nanoparticle and limit its momentum.
+In particular, charging the nanoparticle itself to a ≫100-V
+potential relative to the surrounding electrodes can ensure
+that the e−is recaptured by the particle itself and that the
+ﬁnal state is a true two-body decay with an outgoing ν
+and recoiling nanoparticle only. Field emission (i.e., ejec-
+tion of electrons or ions from a solid nanoparticle due to
+the electrostatic ﬁeld at its surface) limits the maximum
+positive charge on a nanoparticle of radius rs to Q/e ≈
+21(rs/[1 nm])2 [99,139], permitting suﬃcient potentials to
+prevent the emission of the e−to be reached on a ≳5-
+nm-diameter nanoparticle (see Fig. 7). The charge on the
+nanoparticle could also be tuned with single e−precision
+[49,89], to allow only the highest-energy e−to escape and
+be tagged (and thus to identify only the lowest-energy ν).
+While calculating in detail the spectrum of emitted e−from
+such a graphene ﬂake as a function of its net charge is
+beyond the scope considered here, measurements of the
+recoil spectrum versus the charge may provide a precise
+experimental method for identifying the eﬀect of a nonzero
+ν mass.
+V. CONCLUSIONS AND OUTLOOK
+We describe the use of mechanical sensors for which the
+motional DOFs are controlled and measured in the quan-
+tum regime to kinematically reconstruct the mass of neu-
+trinos emitted in weak nuclear decays. Such systems oﬀer
+a new set of tools for searching for a variety of invisible
+particles that may be emitted from nuclei—including mas-
+sive neutrinos—and oﬀer several advantages over exist-
+ing techniques. In particular, trapped nanoscale objects
+permit a variety of isotopes to be characterized with-
+out, e.g., the need to demonstrate laser cooling of a
+given species, while reaching sensitivities that are suﬃ-
+cient to resolve the momentum in a single nuclear decay.
+Solid materials allow a high density of nuclei to be con-
+ﬁned in a trap and enable control and readout of the
+motional state of the particle using tools from quantum
+optomechanics.
+The estimates performed here indicate that even a single
+trapped nanosphere operating at existing sensitivity levels
+could probe new parameter space for approximately MeV-
+scale sterile neutrinos in a few days of integration, if β-
+or EC-decaying nuclides were embedded in the particle
+(
+)
+(
+)
+)
+(
+)
+(
+FIG. 7.
+The maximum depth of the electric potential energy,
+Vmax, for a positively (red) or negatively (blue) charged
+nanosphere of radius rs, assuming that the net charge is limited
+by ﬁeld emission [99,139]. For β−decay, the red dashed lines
+and arrows indicate the nanosphere sizes for which an electron of
+a given initial kinetic energy could be stopped by a nanosphere
+charged to this limit. The inset shows the electric potential as
+a fraction of Vmax relative to a distant grounded surface as a
+function of the distance from the nanosphere center, r.
+at percent-level concentrations. Future extensions to large
+arrays of such particles may be able to reach many orders-
+of-magnitude lower branching ratios for such decays, for
+a variety of isotopes spanning the keV-MeV mass range.
+While well beyond the current state of the art, it is plausible
+that smaller particles may eventually reach the momen-
+tum sensitivity needed to detect the mass of the light
+SM neutrinos. If an ultralow-Q-value EC or β transition
+was also to be identiﬁed with a suﬃciently high decay
+rate, detection of the light neutrino masses using ideas
+similar to those proposed here might one day become
+possible.
+ACKNOWLEDGMENTS
+We thank Maurice Garcia-Sciveres, W. Linda Xu, and
+Giorgio Gratta for discussions. This work was initiated
+at the Aspen Center for Physics, which is supported
+by National Science Foundation (NSF) Grant No. PHY-
+1607611. D.C. is supported by the U.S. Department of
+Energy under contract DE-AC02-05CH11231 and Quan-
+tum Information Science Enabled Discovery (QuantISED)
+for High Energy Physics Grant No. KA2401032. D.C.M.
+is supported, in part, by the Heising-Simons Founda-
+tion, the NSF Grants No. PHY-1653232 and No. PHY-
+2109329, and the Oﬃce of Naval Research (ONR) Grant
+No. N00014-18-1-2409. K.G.L. is supported, in part, by
+the Gordon and Betty Moore Foundation and the U.S.
+Department of Energy (DOE) Oﬃce of Nuclear Physics
+010315-13
+===== PAGE 14 =====
+CARNEY, LEACH, and MOORE
+PRX QUANTUM 4, 010315 (2023)
+under Grants No. DE-FG02-93ER40789 and No. DE-
+SC0021245.
+[1] R. L. Workman et al. (Particle Data Group), Prog. Theor.
+Exp. Phys. 2022, 083C01 (2022).
+[2] André de Gouvêa, Neutrino mass models, Ann. Rev. Nucl.
+Part. Sci. 66, 197 (2016).
+[3] S. Schael, et al. (collaboration ALEPH, DELPHI, L3,
+OPAL, SLD, LEP Electroweak Working Group, SLD
+Electroweak Group, SLD Heavy Flavour Group), Preci-
+sion electroweak measurements on the Z resonance, Phys.
+Rept. 427, 257 (2006).
+[4] B. Dasgupta and J. Kopp, Sterile Neutrinos, Phys. Rept.
+928, 1 (2021).
+[5] C. Giunti and T. Lasserre, eV-scale sterile neutrinos, Ann.
+Rev. Nucl. Part. Sci. 69, 163 (2019). ArXiv:1901.08330,
+[6] A. Boyarsky, M. Drewes, T. Lasserre, S. Mertens, and O.
+Ruchayskiy, Sterile neutrino dark matter, Prog. Part. Nucl.
+Phys. 104, 1 (2019).
+[7] E. Holzschuh, W. Kündig, L. Palermo, H. Stüssi, and P.
+Wenk, Search for heavy neutrinos in the β-spectrum of
+63Ni, Physics Letters B 451, 247 (1999).
+[8] E. Holzschuh, L. Palermo, H. Stüssi, and P. Wenk, The
+β-spectrum of 35S and search for the admixture of heavy
+neutrinos, Phys. Lett. B 482, 1 (2000).
+[9] K. Schreckenbach, G. Colvin, and F. von Feilitzsch,
+Search for mixing of heavy neutrinos in the β+ and β−
+spectra of the 64Cu decay, Phys. Lett. B 129, 265 (1983).
+[10] J. Deutsch, M. Lebrun, and R. Prieels, Searches for admix-
+ture of massive neutrinos into the electron ﬂavour, Nucl.
+Phys. A 518, 149 (1990).
+[11] M. Galeazzi, F. Fontanelli, F. Gatti, and S. Vitale, Lim-
+its on the Existence of Heavy Neutrinos in the Range
+50–1000 eV from the Study of the 187Re Beta Decay, Phys.
+Rev. Lett. 86, 1978 (2001).
+[12] C. Kraus, A. Singer, K. Valerius, and C. Weinheimer,
+Limit on sterile neutrino contribution from the Mainz Neu-
+trino Mass Experiment, Eur. Phys. J. C 73, 2323 (2013).
+[13] A. I. Belesev, A. I. Berlev, E. V. Geraskin, A. A. Golubev,
+N. A. Likhovid, A. A. Nozik, V. S. Pantuev, V. I. Parfenov,
+and A. K. Skasyrskaya, The search for an additional neu-
+trino mass eigenstate in the 2–100 eV region from “Troitsk
+nu-mass” data: A detailed analysis, J. Phys. G 41, 015001
+(2014).
+[14] A. V. Derbin, I. S. Drachnev, I. S. Lomskaya, V. N. Mura-
+tova, N. V. Pilipenko, D. A. Semenov, L. M. Tukkhonen,
+E. V. Unzhakov, and A. Kh. Khusainov, Search for a
+neutrino with a mass of 0.01-1.0 MeV in beta decays of
+144Ce-144Pr nuclei, Sov. J. Exper. Theor. Phys. Lett. 108,
+499 (2018).
+[15] S. Friedrich, G. B. Kim, C. Bray, R. Cantor, J. Dilling, S.
+Fretwell, J. A. Hall, A. Lennarz, V. Lordi, P. Machule, D.
+McKeen, X. Mougeot, F. Ponce, C. Ruiz, A. Samanta, W.
+K. Warburton, and K. G. Leach, Limits on the Existence
+of Sub-MeV Sterile Neutrinos from the Decay of 7Be in
+Superconducting Quantum Sensors, Phys. Rev. Lett. 126,
+021803 (2021).
+[16] F. Bezrukov and M. Shaposhnikov, Searching for dark
+matter sterile neutrinos in the laboratory, Phys. Rev. D 75,
+053005 (2007).
+[17] D. A. Bryman and R. Shrock, Constraints on sterile neu-
+trinos in the MeV to GeV mass range, Phys. Rev. D 100,
+073011 (2019).
+[18] R. E. Shrock, New tests for and bounds on neutrino masses
+and lepton mixing, Phys. Lett. B 96, 159 (1980).
+[19] G. Finocchiaro and R. E. Shrock, Suggestion for an exper-
+iment to search for a massive admixed neutrino in nuclear
+beta decay by complete kinematic reconstruction of the
+ﬁnal state, Phys. Rev. D 46, R888 (1992).
+[20] M. Trinczek, et al., Novel Search for Heavy ν Mixing
+from the β+ Decay of 38mK Conﬁned in an Atom Trap,
+Phys. Rev. Lett. 90, 012501 (2003).
+[21] M. M. Hindi, R. Avci, A. H. Hussein, R. L. Kozub, P.
+Mioˇcinovi´c, and L. Zhu, Search for the admixture of heavy
+neutrinos in the recoil spectra of 37Ar decay, Phys. Rev. C
+58, 2512 (1998).
+[22] C. J. Martoﬀ, F. Granato, V. Palmaccio, X. Yu, P. F. Smith,
+E. R. Hudson, P. Hamilton, C. Schneider, E. Chang, A.
+Renshaw, F. Malatino, P. D. Meyers, and B. Lamichhane,
+HUNTER: precision massive-neutrino search based on
+a laser cooled atomic source, Quantum Sci. Technol. 6,
+024008 (2021).
+[23] P. F. Smith, Proposed experiments to detect keV-range
+sterile neutrinos using energy-momentum reconstruction
+of beta decay or K-capture events, New J. Phys. 21,
+053022 (2019).
+[24] C. Gonzalez-Ballestero, M. Aspelmeyer, L. Novotny, R.
+Quidant, and O. Romero-Isart, Levitodynamics: Levi-
+tation and control of microscopic objects in vacuum,
+Science 374, eabg3027 (2021).
+[25] J. Millen, T. S. Monteiro, R. Pettit, and A. N. Vamivakas,
+Optomechanics with levitated particles, Rep. Prog. Phys.
+83, 026401 (2020).
+[26] P. Fadeev, C. Timberlake, T. Wang, A. Vinante, Y. B.
+Band, D. Budker, A. O. Sushkov, H. Ulbricht, and D. F.
+Jackson Kimball, Ferromagnetic gyroscopes for tests of
+fundamental physics, Quantum Sci. Technol. 6, 024006
+(2021).
+[27] U. Deli´c, M. Reisenbauer, K. Dare, D. Grass, V. Vuleti´c,
+N. Kiesel, and M. Aspelmeyer, Cooling of a levi-
+tated nanoparticle to the motional quantum ground state,
+Science 367, 892 (2020).
+[28] F. Tebbenjohanns, M. Luisa Mattana, M. Rossi, M. Frim-
+mer, and L. Novotny, Quantum control of a nanoparticle
+optically levitated in cryogenic free space, Nature 595,
+378 (2021).
+[29] L. Magrini, P. Rosenzweig, C. Bach, A. Deutschmann-
+Olek, S. G. Hofer, S. Hong, N. Kiesel, A. Kugi, and
+M. Aspelmeyer, Real-time optimal quantum control of
+mechanical motion at room temperature, Nature 595, 373
+(2021).
+[30] A. Ranfagni, K. Børkje, F. Marino, and F. Marin, Two-
+dimensional quantum motion of a levitated nanosphere
+(2021), ArXiv:2112.11383.
+010315-14
+===== PAGE 15 =====
+SEARCHES FOR MASSIVE NEUTRINOS...
+PRX QUANTUM 4, 010315 (2023)
+[31] M. Kamba, R. Shimizu, and K. Aikawa, Optical cold
+damping of neutral nanoparticles near the ground state in
+an optical lattice (2022), ArXiv:2205.00902.
+[32] A. Militaru, M. Rossi, F. Tebbenjohanns, O. Romero-Isart,
+M. Frimmer, and L. Novotny, Ponderomotive squeezing
+of light by a levitated nanoparticle in free space (2022),
+ArXiv:2202.09063.
+[33] L. Magrini, V. A. Camarena-Chávez, C. Bach, A.
+Johnson, and M. Aspelmeyer, Squeezed light from
+a levitated nanoparticle at room temperature (2022),
+ArXiv:2202.09322.
+[34] K. Kustura, C. Gonzalez-Ballestero, A. de los Ríos Som-
+mer, N. Meyer, R. Quidant, and O. Romero-Isart, Mechan-
+ical Squeezing via Unstable Dynamics in a Microcavity,
+Phys. Rev. Lett. 128, 143601 (2022).
+[35] O. ˇCernotík and R. Filip, Strong mechanical squeezing for
+a levitated particle by coherent scattering, Phys. Rev. Res.
+2, 013052 (2020).
+[36] T.
+Weiss,
+M.
+Roda-Llordes,
+E.
+Torrontegui,
+M.
+Aspelmeyer, and O. Romero-Isart, Large Quantum Delo-
+calization of a Levitated Nanoparticle Using Optimal Con-
+trol: Applications for Force Sensing and Entangling via
+Weak Forces, Phys. Rev. Lett. 127, 023601 (2021).
+[37] L. Neumeier, M. A. Ciampini, O. Romero-Isart, M.
+Aspelmeyer, and N. Kiesel, Fast quantum interference
+of a nanoparticle via optical potential control (2022),
+ArXiv:2207.12539.
+[38] R. Zhou, R. J. Marshman, S. Bose, and A. Mazumdar,
+Catapulting towards massive and large spatial quantum
+superposition (2022), ArXiv:2206.04088.
+[39] F. Monteiro, G. Afek, D. Carney, G. Krnjaic, J. Wang,
+and D. C. Moore, Search for Composite Dark Matter with
+Optically Levitated Sensors, Phys. Rev. Lett. 125, 181102
+(2020).
+[40] G. Afek, D. Carney, and D. C. Moore, Coherent Scatter-
+ing of Low Mass Dark Matter from Optically Trapped
+Sensors, Phys. Rev. Lett. 128, 101301 (2022).
+[41] D. Carney, G. Krnjaic, D. C. Moore, C.A. Regal, G. Afek,
+S. Bhave, B. Brubaker, T. Corbitt, J. Cripe, N. Crisosto,
+and A. Geraci, Mechanical quantum sensing in the
+search for dark matter, Quantum Sci. Technol. 6, 024002
+(2021).
+[42] D. C. Moore and A. A. Geraci, Searching for new physics
+using optically levitated sensors, Quantum Sci. Technol.
+6, 014008 (2021).
+[43] C. Jess Riedel, Direct detection of classically undetectable
+dark matter through quantum decoherence, Phys. Rev. D
+88, 116005 (2013).
+[44] C. Jess Riedel and I. Yavin, Decoherence as a way to mea-
+sure extremely soft collisions with dark matter, Phys. Rev.
+D 96, 023007 (2017).
+[45] C. P. Blakemore, A. Fieguth, A. Kawasaki, N. Priel, D.
+Martin, A. D. Rider, Q. Wang, and G. Gratta, Search
+for non-Newtonian interactions at micrometer scale with
+a levitated test mass, Phys. Rev. D 104, L061101
+(2021).
+[46] C. Timberlake, A. Vinante, F. Shankar, A. Lapi, and
+H. Ulbricht, Probing modiﬁed gravity with magneti-
+cally levitated resonators, Phys. Rev. D 104, L101101
+(2021).
+[47] G. Afek, F. Monteiro, J. Wang, B. Siegel, S. Ghosh, and
+D. C. Moore, Limits on the abundance of millicharged
+particles bound to matter, Phys. Rev. D 104, 012004
+(2021).
+[48] N. Priel, A. Fieguth, C. P. Blakemore, E. Hough, A.
+Kawasaki, D. Martin, G. Venugopalan, and G. Gratta, A
+background-free optically levitated charge sensor (2021),
+ArXiv:2112.10383.
+[49] D. C. Moore, A. D. Rider, and G. Gratta, Search for
+Millicharged Particles Using Optically Levitated Micro-
+spheres, Phys. Rev. Lett. 113, 251801 (2014).
+[50] M. Carlesso, S. Donadi, L. Ferialdi, M. Paternostro, H.
+Ulbricht, and A. Bassi, Present status and future chal-
+lenges of non-interferometric tests of collapse models,
+Nat. Phys. 18, 243 (2022).
+[51] A. Belenchia, M. Carlesso, Ö. Bayraktar, D. Dequal, I.
+Derkach, G. Gasbarri, W. Herr, Y. L. Li, M. Rademacher,
+J. Sidhu, D. K. L. Oi, S. T. Seidel, R. Kaltenbaek, C. Mar-
+quardt, H. Ulbricht, V. C. Usenko, L. Wörner, A. Xuereb,
+M. Paternostro, and A. Bassi, Quantum physics in space,
+Phys. Rep. 951, 1 (2022).
+[52] D. Zheng, Y. Leng, X. Kong, R. Li, Z. Wang, X. Luo,
+J. Zhao, C.-K. Duan, P. Huang, J. Du, M. Carlesso,
+and A. Bassi, Room temperature test of the continuous
+spontaneous localization model using a levitated micro-
+oscillator, Phys. Rev. Res. 2, 013057 (2020).
+[53] A. Vinante, G. Gasbarri, C. Timberlake, M. Toroš, and
+H. Ulbricht, Testing dissipative collapse models with a
+levitated micromagnet, Phys. Rev. Res. 2, 043229 (2020).
+[54] N. Aggarwal, G. P. Winstone, M. Teo, M. Baryakhtar,
+S. L. Larson, V. Kalogera, and A. A. Geraci, Search-
+ing for New Physics with a Levitated-Sensor-Based
+Gravitational-Wave Detector, Phys. Rev. Lett. 128,
+111101 (2022).
+[55] G. Winstone, Z. Wang, S. Klomp, G. Felsted, A. Laeuger,
+D. Grass, N. Aggarwal, J. Sprague, P. J. Pauzauskie, S. L.
+Larson, V. Kalogera, and A. A. Geraci, Optical trapping
+of high-aspect-ratio NaYF hexagonal prisms for kHz-
+MHz gravitational wave detectors (2022), arXiv e-prints,
+ArXiv:2204.10843.
+[56] S. Bose, A. Mazumdar, G. W. Morley, H. Ulbricht, M.
+Toroš, M. Paternostro, A. A. Geraci, P. F. Barker, M.
+S. Kim, and G. Milburn, Spin Entanglement Witness for
+Quantum Gravity, Phys. Rev. Lett. 119, 240401 (2017).
+[57] C. Marletto and V. Vedral, Gravitationally Induced Entan-
+glement between Two Massive Particles Is Suﬃcient Evi-
+dence of Quantum Eﬀects in Gravity, Phys. Rev. Lett. 119,
+240402 (2017).
+[58] D. Carney, P. C. E. Stamp, and J. M. Taylor, Tabletop
+experiments for quantum gravity: A user’s manual, Class.
+Quant. Grav. 36, 034001 (2019).
+[59] E. Kilian, M. Toroš, F. F. Deppisch, R. Saakyan, and S.
+Bose, Requirements on quantum superpositions of macro-
+objects for sensing neutrinos (2022), ArXiv:2204.13095.
+[60] A. Samanta, S. Friedrich, K. G. Leach, and V. Lordi, Mate-
+rial eﬀects on electron capture decays in cryogenic sensors
+(2022), ArXiv:2206.00150.
+[61] M. A. Acero, C. A. Argüelles, M. Hostert, D. Kalra, G.
+Karagiorgi, K. J. Kelly, B. Littlejohn, P. Machado, W. Pet-
+tus, M. Toups, and M. Ross-Lonergan, White paper on
+010315-15
+===== PAGE 16 =====
+CARNEY, LEACH, and MOORE
+PRX QUANTUM 4, 010315 (2023)
+light sterile neutrino searches and related phenomenology
+(2022), ArXiv:2203.07323.
+[62] R. Dörner, V. Mergel, O. Jagutzki, L. Spielberger, J.
+Ullrich, R. Moshammer, and H. Schmidt-Böcking, Cold
+target recoil ion momentum spectroscopy: A “momen-
+tum microscope” to view atomic collision dynamics, Phys.
+Rep. 330, 95 (2000).
+[63] A. Apponi, et al. (collaboration PTOLEMY), Heisen-
+berg’s uncertainty principle in the PTOLEMY project: A
+theory update (2022), ArXiv:2203.11228.
+[64] Y. Cheipesh, V. Cheianov, and A. Boyarsky, Navigating
+the pitfalls of relic neutrino detection, Phys. Rev. D 104,
+116004 (2021).
+[65] B. Pontecorvo, Neutrino experiments and the problem of
+conservation of leptonic charge, Sov. J. Exper. Theor.
+Phys. 26, 984 (1968).
+[66] Z. Maki, M. Nakagawa, and S. Sakata, Remarks on the
+uniﬁed model of elementary particles, Prog. Theor. Phys.
+28, 870 (1962).
+[67] T. M. C. Abbott, et al. (collaboration DES), Dark Energy
+Survey Year 3 results: Cosmological constraints from
+galaxy clustering and weak lensing, Phys. Rev. D 105,
+023520 (2022).
+[68] S. Hagstotz, P. F. de Salas, S. Gariazzo, M. Gerbino, M.
+Lattanzi, S. Vagnozzi, K. Freese, and S. Pastor, Bounds
+on light sterile neutrino mass and mixing from cosmology
+and laboratory searches, Phys. Rev. D 104, 123524 (2021).
+[69] Y. Roichman, V. Wong, and D. G. Grier, Colloidal trans-
+port through optical tweezer arrays, Phys. Rev. E 75,
+011407 (2007).
+[70] B. J. Lester, N. Luick, A. M. Kaufman, C. M. Reynolds,
+and C. A. Regal, Rapid Production of Uniformly Filled
+Arrays of Neutral Atoms, Phys. Rev. Lett. 115, 073003
+(2015).
+[71] M. Endres, H. Bernien, A. Keesling, H. Levine, E. R.
+Anschuetz, A. Krajenbrink, C. Senko, V. Vuletic, M.
+Greiner, and M. D. Lukin, Atom-by-atom assembly of
+defect-free one-dimensional cold atom arrays, Science
+354, 1024 (2016).
+[72] D. Barredo, V. Lienhard, S. de Léséleuc, T. Lahaye, and A.
+Browaeys, Synthetic three-dimensional atomic structures
+assembled atom by atom, Nature 561, 79 (2018).
+[73] J. P. Covey, I. S. Madjarov, A. Cooper, and M. Endres,
+2000-Times Repeated Imaging of Strontium Atoms in
+Clock-Magic Tweezer Arrays, Phys. Rev. Lett. 122,
+173201 (2019).
+[74] A. Jenkins, J. W. Lis, A. Senoo, W. F. McGrew, and A. M.
+Kaufman, Ytterbium Nuclear-Spin Qubits in an Optical
+Tweezer Array, Phys. Rev. X 12, 021027 (2022).
+[75] Y. Arita, E. M. Wright, and K. Dholakia, Optical bind-
+ing of two cooled micro-gyroscopes levitated in vacuum,
+Optica 5, 910 (2018).
+[76] J. Rieser, M. A. Ciampini, H. Rudolph, N. Kiesel, K.
+Hornberger, B. A. Stickler, M. Aspelmeyer, and U. Deli´c,
+Observation of strong and tunable light-induced dipole-
+dipole interactions between optically levitated nanoparti-
+cles (2022), ArXiv:2203.04198.
+[77] A. G. Cohen, S. L. Glashow, and Z. Ligeti, Disentangling
+Neutrino Oscillations, Phys. Lett. B 678, 191 (2009).
+[78] J. Lindhard, M. Scharﬀ, and H. E. Schiøtt, Range Concepts
+and Heavy ion Ranges Vol. 33 (Munksgaard, Copenhagen,
+1963).
+[79] C. M. Caves, Quantum-mechanical noise in an interferom-
+eter, Phys. Rev. D 23, 1693 (1981).
+[80] A. A. Clerk, M. H. Devoret, S. M. Girvin, F. Marquardt,
+and R. J. Schoelkopf, Introduction to quantum noise, mea-
+surement, and ampliﬁcation, Rev. Mod. Phys. 82, 1155
+(2010).
+[81] A. A. Clerk, Quantum-limited position detection and
+ampliﬁcation: A linear response perspective, Phys. Rev.
+B 70, 245306 (2004).
+[82] S. Ghosh, D. Carney, P. Shawhan, and J. M. Taylor,
+Backaction-evading impulse measurement with mechan-
+ical quantum sensors, Phys. Rev. A 102, 023525
+(2020).
+[83] F. Tebbenjohanns, M. Frimmer, and L. Novotny, Optimal
+position detection of a dipolar scatterer in a focused ﬁeld,
+Phys. Rev. A 100, 043821 (2019).
+[84] More complex designs are possible. For example, the sur-
+faces of the scintillators could be coated with a reﬂective
+coating and act as mirrors to reﬂect the imaging light back
+onto the particle and into the opposite objective [140],
+while not aﬀecting detection of the secondary particles.
+[85] Data retrieved from Evaluated Nuclear Structure Data File
+(ENSDF) Database, June, 1, 2022, http://www.nndc.bnl.
+gov/ensarchivals/.
+[86] M. Morita, Theory of beta decay, Prog. Theor. Phys.
+Suppl. 26, 1 (1963).
+[87] J. C. Ashley and V. E. Anderson, Interaction of low-energy
+electrons with silicon dioxide, J. Electron Spectros. Relat.
+Phenom. 24, 127 (1981).
+[88] M. J. Berger, ESTAR, PSTAR, and ASTAR: Computer pro-
+grams for calculating stopping-power and range tables for
+electrons, protons, and helium ions (1992).
+[89] M. Frimmer, K. Luszcz, S. Ferreiro, V. Jain, E. Hebestreit,
+and L. Novotny, Controlling the net charge on a nanoparti-
+cle optically levitated in vacuum, Phys. Rev. A 95, 061801
+(2017).
+[90] F. Monteiro, S. Ghosh, A. G. Fine, and D. C. Moore, Opti-
+cal levitation of 10-ng spheres with nano-g acceleration
+sensitivity, Phys. Rev. A 96, 063841 (2017).
+[91] K. M. Zakir Hossain, U. Patel, and I. Ahmed, Devel-
+opment of microspheres for biomedical applications: A
+review, Prog. Biomater. 4, 1 (2015).
+[92] S. Quignard, S. Masse, G. Laurent, and T. Coradin, Intro-
+duction of disulﬁde bridges within silica nanoparticles to
+control their intra-cellular degradation, Chem. Commun.
+49, 3410 (2013).
+[93] M. A. Westcott, D. M. Coldwell, D. M. Liu, and J. F.
+Zikria, The development, commercialization, and clin-
+ical context of yttrium-90 radiolabeled resin and glass
+microspheres, Ad. Rad. Oncol. 1, 351 (2016).
+[94] B. Duret and A. Saudin, Microspheres for on-board
+hydrogen storage, Int. J. Hydrogen Energy 19, 757
+(1994).
+[95] J. Dhanaraj, R. Jagannathan, T. R. N. Kutty, and C.-
+H. Lu, Photoluminescence characteristics of Y2O3:Eu3+
+nanophosphors prepared using sol-gel thermolysis, J.
+Phys. Chem. B 105, 11098 (2001).
+010315-16
+===== PAGE 17 =====
+SEARCHES FOR MASSIVE NEUTRINOS...
+PRX QUANTUM 4, 010315 (2023)
+[96] S. Cueﬀ, J. John, Z. Zhang, J. Parra, J. Sun, R.
+Orobtchouk, S. Ramanathan, and P. Sanchis, VO2
+nanophotonics, APL Photon. 5, 110901 (2020).
+[97] R.Hu, W.Kan, X. Xiong, and H. Wei, Preparation of
+a deuterated polymer: Simulating to produce a solid
+tritium radioactive source, J. Nucl. Mater. 492, 171
+(2017).
+[98] The energy of the emitted electron in this light sys-
+tem depends on the chemical shift generated when it is
+sequestered in a material, as observed and noted in Ref.
+[141].
+[99] D. Goldwater, B. A. Stickler, L. Martinetz, T. E. Northup,
+K. Hornberger, and J. Millen, Levitated electromechan-
+ics: All-electrical cooling of charged nano- and micro-
+particles, Quantum Sci. Technol. 4, 024003 (2019).
+[100] L. Dania, D. S. Bykov, M. Knoll, P. Mestres, and T. E.
+Northup, Optical and electrical feedback cooling of a sil-
+ica nanoparticle levitated in a Paul trap, Phys. Rev. Res. 3,
+013018 (2021).
+[101] F. Monteiro, W. Li, G. Afek, C.-l. Li, M. Mossman, and D.
+C. Moore, Force and acceleration sensing with optically
+levitated nanogram masses at microkelvin temperatures,
+Phys. Rev. A 101, 053835 (2020).
+[102] M. Schumann, Direct detection of WIMP dark matter:
+Concepts and status, J. Phys. G: Nucl. Particle Phys. 46,
+103003 (2019).
+[103] J. F. Ziegler, M. D. Ziegler, and J. P. Biersack, SRIM—the
+stopping and range of ions in matter (2010), Nucl. Instrum.
+Methods Phys. Res. B 268, 1818 (2010).
+[104] SRIM-2013, http://www.srim.org/.
+[105] W. Stöber, A. Fink, and E. Bohn, Controlled growth of
+monodisperse silica spheres in the micron size range, J.
+Colloid Interface Sci. 26, 62 (1968).
+[106] Corpuscular Inc., http://www.microspheres-nanospheres.
+com/.
+[107] J. Llop and V. Gomez-Vallejo, Isotopes in Nanoparticles:
+Fundamentals and Applications (CRC Press, Boca Raton,
+FL, 2016).
+[108] M. Aker, et al. (collaboration KATRIN), Direct neutrino-
+mass
+measurement
+with
+sub-electronvolt
+sensitivity,
+Nature Phys. 18, 160 (2022).
+[109] P. A. R. Ade, et al. (collaboration Planck), Planck 2013
+results. XVI. Cosmological parameters, Astron. Astro-
+phys. 571, A16 (2014).
+[110] I. Esteban, M. C. Gonzalez-Garcia, M. Maltoni, T.
+Schwetz, and A. Zhou, The fate of hints: Updated global
+analysis of three-ﬂavor neutrino oscillations, JHEP 09,
+178 (2020).
+[111] J. A. Formaggio, A. L. C. de Gouvêa, and R. G. Hamish
+Robertson, Direct measurements of neutrino mass, Phys.
+Rept. 914, 1 (2021).
+[112] S. Nussinov and Z. Nussinov, Quantum induced broaden-
+ing: A challenge for cosmic neutrino background discov-
+ery, Phys. Rev. D 105, 043502 (2022).
+[113] E. Marzec and J. Spitz, Neutrino decoherence and the
+mass hierarchy in the JUNO experiment, Phys. Rev. D
+106, 053007 (2022).
+[114] A. de Gouvêa, V. De Romeri, and C. A. Ternes, Combined
+analysis of neutrino decoherence at reactor experiments,
+JHEP 06, 042 (2021).
+[115] E. Akhmedov and A. Y. Smirnov, Damping of neutrino
+oscillations, decoherence and the lengths of neutrino wave
+packets (2022), ArXiv:2208.03736.
+[116] B. J. P. Jones, Comment on “Damping of neutrino oscil-
+lations, decoherence and the lengths of neutrino wave
+packets” (2022), ArXiv:2209.00561.
+[117] M. Ramalho, Z. Ge, T. Eronen, D. A. Nesterenko, J.
+Jaatinen, A. Jokinen, A. Kankainen, J. Kostensalo, J.
+Kotila, M. I. Krivoruchenko, J. Suhonen, K. S. Tyrin,
+and V. Virtanen, Observation of an ultralow-q-value
+electron-capture channel decaying to 75As via a high-
+precision mass measurement, Phys. Rev. C 106, 015501
+(2022).
+[118] Z. Ge, et al., 159Dy Electron-Capture: A New Candidate
+for Neutrino Mass Determination, Phys. Rev. Lett. 127,
+272301 (2021).
+[119] N. D. Gamage, R. Bhandari, M. Horana Gamage, R. San-
+dler, and M. Redshaw, Identiﬁcation and investigation of
+possible ultra-low Q value β decay candidates, Hyperﬁne
+Interact. 240, 43 (2019).
+[120] B. J. Mount, M. Redshaw, and E. G. Myers, q Value
+of 115In→115Sn(3/2+): The Lowest Known Energy β
+Decay, Phys. Rev. Lett. 103, 122502 (2009).
+[121] J. S. E. Wieslander, J. Suhonen, T. Eronen, M. Hult, V.-V.
+Elomaa, A. Jokinen, G. Marissens, M. Misiaszek, M. T.
+Mustonen, S. Rahaman, C. Weber, and J. Äystö, Small-
+est Known q Value of Any Nuclear Decay: The Rare
+β−Decay of 115In(9/2+) →115Sn(3/2+), Phys. Rev. Lett.
+103, 122501 (2009).
+[122] J. Aasi, J Abadie, B. P. Abbott, R. Abbott, T. D. Abbott, M.
+R. Abernathy, C. Adams, T. Adams, P. Addesso, and R. X.
+Adhikari, et al., Enhanced sensitivity of the LIGO gravi-
+tational wave detector by using squeezed states of light,
+Nat. Photon. 7, 613 (2013).
+[123] L. McCuller, C. Whittle, D. Ganapathy, K. Komori, M.
+Tse, A. Fernandez-Galiana, L. Barsotti, P. Fritschel, M.
+MacInnis, F. Matichard, K. Mason, N. Mavalvala, R. Mit-
+tleman, H. Yu, M. E. Zucker, and M. Evans, Frequency-
+Dependent Squeezing for Advanced LIGO, Phys. Rev.
+Lett. 124, 171102 (2020).
+[124] C. Gonzalez-Ballestero, J. A. Zieli´nska, M. Rossi, A. Mil-
+itaru, M. Frimmer, L. Novotny, P. Maurer, and O. Romero-
+Isart, Suppressing recoil heating in levitated optomechan-
+ics using squeezed light (2022), ArXiv:2209.05858.
+[125] V. B. Braginsky and F. Ya. Khalili, Gravitational wave
+antenna with QND speed meter, Phys. Lett. A 147, 251
+(1990).
+[126] S. L. Danilishin, E. Knyazev, N. V. Voronchev, F. Ya.
+Khalili, C. Gräf, S. Steinlechner, J.-S. Hennig, and S. Hild,
+A new type of quantum speed meter interferometer: Mea-
+suring speed to search for intermediate mass black holes
+(2017), ArXiv:1702.01029.
+[127] M. Aspelmeyer, When Zeh meets Feynman: How to avoid
+the appearance of a classical world in gravity experiments,
+Fundam. Theor. Phys. 204, 85 (2022).
+[128] Note that the mechanical system is only very weakly
+trapped (ωs ≪1 MHz ≈60 neV) and so during the decay
+event the entire system is essentially freely falling.
+[129] We note that there are, in principle, small corrections to
+the momentum measured in the nanoparticle COM frame
+010315-17
+===== PAGE 18 =====
+CARNEY, LEACH, and MOORE
+PRX QUANTUM 4, 010315 (2023)
+relative to the rest frame of the decaying nucleus that
+depend on the thermal velocity of the nucleus, internal
+excitations, etc., but that are suppressed relative to the
+momentum of the emitted particle by the mass ratio of
+the emitted particle to the nuclear mass. However, due to
+the maximum practical energy available in nuclear decays
+(10–20 MeV) and the minimum nuclear masses >GeV,
+these would typically be expected to provide subdomi-
+nant corrections to the inferred momentum in practical
+experiments.
+[130] A. Samanta, S. Friedrich, K. G. Leach, and V. Lordi, Mate-
+rial eﬀects on electron capture decays in cryogenic sensors
+(2022), ArXiv:2206.00150.
+[131] M. G. Betti, et al. (collaboration PTOLEMY), Neu-
+trino physics with the PTOLEMY project: Active neu-
+trino properties and the light sterile case, JCAP 07, 047
+(2019).
+[132] E.
+Baracchini,
+et
+al.
+(collaboration
+PTOLEMY),
+PTOLEMY: A proposal for thermal relic detection of
+massive neutrinos and directional detection of MeV dark
+matter (2018), ArXiv:1808.01892.
+[133] M. G. Betti, M. Biasotti, A. Boscá, F. Calle, J. Carabe-
+Lopez, G. Cavoto, C. Chang, W. Chung, A.G. Cocco, A.P.
+Colijn, and J. Conrad, A design for an electromagnetic
+ﬁlter for precision energy measurements at the tritium
+endpoint, Prog. Part. Nucl. Phys. 106, 120 (2019).
+[134] A. Apponi, M. G. Betti, M. Borghesi, N. Canci, G.
+Cavoto, C. Chang, W. Chung, A. G. Cocco, A. P. Col-
+ijn, N. D’Ambrosio, and N. de Groot, Implementation and
+optimization of the PTOLEMY transverse drift electro-
+magnetic ﬁlter, JINST 17, P05021 (2022).
+[135] R. S. Raghavan, Recoilless resonant capture of antineutri-
+nos (2005), ArXiv:hep-ph/0511191.
+[136] R. S. Raghavan, Recoilless resonant capture of antineutri-
+nos from tritium decay (2006), ArXiv:hep-ph/0601079.
+[137] B. E. Kane, Levitated spinning graphene ﬂakes in an
+electric quadrupole ion trap, Phys. Rev. B 82, 115441
+(2010).
+[138] D. Carney, H. Häﬀner, D. C. Moore, and J. M. Taylor,
+Trapped Electrons and Ions as Particle Detectors, Phys.
+Rev. Lett. 127, 061804 (2021).
+[139] B. T. Draine and B. Sutin, Collisional charging of inter-
+stellar grains, Astrophys. J. 320, 803 (1987).
+[140] L. Dania, K. Heidegger, D. S. Bykov, G. Cerchiari, G.
+Araneda, and T. E. Northup, Position measurement of
+a levitated nanoparticle via interference with its mirror
+image (2021), ArXiv:2112.14990.
+[141] S. Fretwell, K. G. Leach, C. Bray, G. B. Kim, J. Dilling,
+A. Lennarz, X. Mougeot, F. Ponce, C. Ruiz, J. Stackhouse,
+and S. Friedrich, Direct Measurement of the 7Be l/k Cap-
+ture Ratio in Ta-Based Superconducting Tunnel Junctions,
+Phys. Rev. Lett. 125, 032701 (2020).
+010315-18
